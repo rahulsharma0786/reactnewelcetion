@@ -16,7 +16,6 @@ setInput(values=>({...values,[name]:value}))
 }
 
 const inputsave=()=>{
-    
 axios.post("https://election-u79u.onrender.com/stusave",input).then(()=>{
     console.log("data save")
     
